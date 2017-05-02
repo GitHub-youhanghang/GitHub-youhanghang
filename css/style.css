@@ -3866,6 +3866,11 @@ pre .javascript .function {
   border-radius: 6px;
   background-color: #fff;
 }
+.article-tag-list {
+  min-height: 20px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
 .article-meta a {
   height: 30px;
   line-height: 30px;
@@ -3874,8 +3879,17 @@ pre .javascript .function {
 .article-tag-list-link::before {
   content: "";
 }
+.article-footer {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
 .article-tag-list-link {
   display: block;
+  height: 20px;
+  line-height: 20px;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
