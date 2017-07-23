@@ -32,6 +32,9 @@
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
     <script>window.lazyScripts=[]</script>
+<!-- hexo代码高亮 http://www.ieclipse.cn/2016/07/18/Web/Hexo-dev-highlight/  -->
+<link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.2.0/styles/github.min.css">
+<script src="//cdn.bootcss.com/highlight.js/9.2.0/highlight.min.js"></script>
 </head>
 
 <body>
@@ -290,7 +293,10 @@ YouMigh...
     <div class="post-content" id="post-content" itemprop="postContent">
 
     
-        网页小功能列表
+        网页小功能列表测试代码高亮function a(){
+	var a=&quot;ddd&quot;;
+	console.log(a);
+}
     
 
         <a href="/2017/05/10/网页小功能/" class="post-more waves-effect waves-button">
@@ -543,5 +549,10 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
 
 
 
+
+    <script type="text/javascript">
+// highlight 
+hljs.initHighlightingOnLoad();    	
+    </script>
 </body>
 </html>
