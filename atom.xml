@@ -167,13 +167,13 @@
     <link href="http://youhanghang.com/2017/05/10/%E7%BD%91%E9%A1%B5%E5%B0%8F%E5%8A%9F%E8%83%BD/"/>
     <id>http://youhanghang.com/2017/05/10/网页小功能/</id>
     <published>2017-05-10T07:59:30.383Z</published>
-    <updated>2017-07-23T13:08:02.922Z</updated>
+    <updated>2017-08-22T04:42:33.452Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="网页小功能列表"><a href="#网页小功能列表" class="headerlink" title="网页小功能列表"></a><a href="https://github-youhanghang.github.io/StaticPage/" target="_blank" rel="external">网页小功能列表</a></h2><h3 id="测试代码高亮"><a href="#测试代码高亮" class="headerlink" title="测试代码高亮"></a>测试代码高亮</h3><figure class="highlight javascript"><figcaption><span>[标题] [] [url] [link text]</span></figcaption><table><tr><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">a</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	<span class="keyword">var</span> a=<span class="string">"ddd"</span>;</div><div class="line">	<span class="built_in">console</span>.log(a);</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="功能型网页列表"><a href="#功能型网页列表" class="headerlink" title="功能型网页列表"></a><a href="https://github-youhanghang.github.io/StaticPage/" target="_blank" rel="external">功能型网页列表</a></h2><h3 id="测试代码高亮"><a href="#测试代码高亮" class="headerlink" title="测试代码高亮"></a>测试代码高亮</h3><figure class="highlight javascript"><figcaption><span>[标题] [] [url] [link text]</span></figcaption><table><tr><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">a</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	<span class="keyword">var</span> a=<span class="string">"ddd"</span>;</div><div class="line">	<span class="built_in">console</span>.log(a);</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;网页小功能列表&quot;&gt;&lt;a href=&quot;#网页小功能列表&quot; class=&quot;headerlink&quot; title=&quot;网页小功能列表&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github-youhanghang.github.io/StaticPage/&quot; target
+      &lt;h2 id=&quot;功能型网页列表&quot;&gt;&lt;a href=&quot;#功能型网页列表&quot; class=&quot;headerlink&quot; title=&quot;功能型网页列表&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github-youhanghang.github.io/StaticPage/&quot; target
     
     </summary>
     
