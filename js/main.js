@@ -506,33 +506,34 @@ void 0!==c?null===c?void r.removeAttr(a,b):e&&"set"in e&&void 0!==(d=e.set(a,c,b
 var a_idx = 0;
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
-var a = new Array("曾经有一份真诚的爱情放在我面前，我没有珍惜", 
-    "等我失去的时候我才后悔莫及","人世间最痛苦的事莫过于此。", 
-    "如果上天能够给我一个再来一次的机会","我会对那个女孩子说三个字：我爱你。", 
-    "如果非要在这份爱上加上一个期限",
-     "我希望是……", "一万年！");
-var $i = $("<span/>").text(a[a_idx]);
+        var a = new Array("曾经有一份真诚的爱情放在我面前，我没有珍惜",
+            "等我失去的时候我才后悔莫及", "人世间最痛苦的事莫过于此。",
+            "如果上天能够给我一个再来一次的机会", "我会对那个女孩子说三个字：我爱你。",
+            "如果非要在这份爱上加上一个期限",
+            "我希望是……", "一万年！");
+        var $i = $("<span/>").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
-var x = e.pageX,
-        y = e.pageY;
+        var x = e.pageX,
+            y = e.pageY;
         $i.css({
-"z-index": 9999,
-"top": y - 20,
-"left": x,
-"position": "absolute",
-"font-size": "20px",
-"font-weight": "bold",
-"color": "#ff6651"
+            "z-index": 9999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-size": "20px",
+            "font-weight": "bold",
+            "color": "#ff6651"
         });
         $("body").append($i);
         $i.animate({
-"top": y - 100,
-"opacity": 0
-        },
-        3000,
-function() {
-            $i.remove();
-        });
+                "top": y - 100,
+                "opacity": 0
+            },
+            3000,
+            function() {
+                $i.remove();
+            });
     });
 });
+
 
